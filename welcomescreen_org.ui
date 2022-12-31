@@ -24,7 +24,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#bgwidget{
-background-color: rgb(22, 23, 26)}</string>
+background-color:qlineargradient(spread:pad, x1:0.091, y1:0.101636, x2:0.991379, y2:0.977, stop:0 rgba(209, 107, 165, 255), stop:1 rgba(255, 255, 255, 255));}</string>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -69,9 +69,8 @@ background-color: rgb(22, 23, 26)}</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border-radius:20px;
-background-color: rgb(55, 59, 64);
-font: 14pt &quot;MS Shell Dlg 2&quot;;
-color:rgb(241, 243, 244)</string>
+background-color: rgb(170, 255, 255);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Log in</string>
